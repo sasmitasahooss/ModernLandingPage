@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+#workingarea{
+    position: relative;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nleft, #nright {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#nav a{
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    font-family: Gilroy;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+
+#heroleft{
+    min-width: 50%;
+    height: 100px;
+}
+
+#heroleft button{
+    pointer-events: all;
+    padding: .8vw 3vw;
+    margin-top: 2vw;
+    font-family: kajiro;
+    font-size: 3vw;
+}
+
+#hero .elem{
+    position: relative;
+    height: 9vw;
+    overflow: hidden;
+}
+
+#heroleft .elem h1:nth-child(1){
+    top: 0;
+}
+
+#heroleft .elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: .9;
+    font-family: kajiro;
+    color: #fff;
+    font-weight: 100;
+    font-size: 11vw;
+}
+
+#heroright{
+    /* background-color: green; */
+    margin-top: 2px;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+    height: 470px;
+    color: #fff;
+}
+
+#heroright p{
+    font-size: 10px;
+    font-weight: 300;
+    text-align: right;
+}
+
+#heroright #imagediv{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url(https://images.unsplash.com/photo-1612824991870-125445007b14?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w3MzU0ODYzfHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#heroright p:nth-child(3){
+    margin-bottom: 50px;
+}
+
+#heroright p:nth-child(4){
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
